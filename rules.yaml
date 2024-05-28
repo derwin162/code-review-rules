@@ -9,13 +9,13 @@ default:
     - variable naming should be meaningful
 
 ## support overriding based on repository
-##override:
-##  repository:
-##    yoda:
-##      rules:
-##        - imports should follow alphabetic order
+override:
+ repository:
+   yoda:
+     rules:
+       - imports should follow alphabetic order
 
-##    rhapsody:
-##      rules:
-##        - Use descriptive variable names
-##        - Use variables even for constants
+   rhapsody:
+     rules:
+       - Use descriptive variable names
+       - Use variables even for constants
