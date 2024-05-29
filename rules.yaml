@@ -19,3 +19,5 @@ override:
      rules:
        - Use descriptive variable names
        - Use variables even for constants
+   ufe:
+     enabled: false       
