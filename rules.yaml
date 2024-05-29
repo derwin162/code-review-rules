@@ -3,7 +3,7 @@ preview_settings:
 ##  repository: yoda
 
 default:
-  enable: true
+  enabled: true
   rules:
     - check if any typo
     - variable naming should be meaningful
