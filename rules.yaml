@@ -5,8 +5,10 @@ preview_settings:
 default:
   enabled: true
   rules:
-    - check if any typo
-    - variable naming should be meaningful
+    - Write clear and descriptive code
+    - Write modular and reusable code
+    - Write performance optimized code
+    - Test and validate your code
 
 ## support overriding based on repository
 override:
