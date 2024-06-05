@@ -1,6 +1,6 @@
 preview_settings:
   language: java
-##  repository: yoda
+##  repository: starwars
 
 default:
   enabled: true
@@ -11,13 +11,13 @@ default:
 ## support overriding based on repository
 override:
  repository:
-   yoda:
+   starwars:
      rules:
        - imports should follow alphabetic order
 
-   rhapsody:
+   startrek:
      rules:
        - Use descriptive variable names
        - Use variables even for constants
-   ufe:
+   ithorian:
      enabled: false       
