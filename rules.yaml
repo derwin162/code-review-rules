@@ -1,0 +1,24 @@
+preview_settings:
+  language: java
+##  repository: starwars/Hoth
+
+default:
+  enabled: true
+  rules:
+    - Write clear and descriptive code
+    - Write modular and reusable code
+    - Write performance optimized code
+
+## support overriding based on repository
+override:
+ repository:
+   starwars/Hoth:
+     rules:
+       - imports should follow alphabetic order
+
+   starwars/Alsakan:
+     rules:
+       - Use descriptive variable names
+       - Use variables even for constants
+   starwars/Hudda:
+     enabled: false       
