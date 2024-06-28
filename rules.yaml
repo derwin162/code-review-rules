@@ -1,6 +1,6 @@
 preview_settings:
   language: java
-##  repository: starwars
+##  repository: starwars/Hoth
 
 default:
   enabled: true
@@ -12,13 +12,13 @@ default:
 ## support overriding based on repository
 override:
  repository:
-   starwars:
+   starwars/Hoth:
      rules:
        - imports should follow alphabetic order
 
-   startrek:
+   starwars/Alsakan:
      rules:
        - Use descriptive variable names
        - Use variables even for constants
-   ithorian:
+   starwars/Hudda:
      enabled: false       
